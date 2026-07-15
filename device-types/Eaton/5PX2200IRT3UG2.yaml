@@ -1,0 +1,53 @@
+---
+manufacturer: Eaton
+model: 5PX2200IRT3UG2
+slug: eaton-5px2200irt3ug2
+part_number: 5PX2200IRT3UG2
+u_height: 3
+is_full_depth: true
+weight: 27.5
+weight_unit: kg
+comments: 'Eaton 5PX Gen2 UPS, 2200 VA, 2200 W, Input: C20, Output: (8) C13, (2) C19, Rack/tower, 3U [Product Page](https://www.eaton.com/ae/en-gb/skuPage.5PX2200IRT3UG2.html)'
+console-ports:
+  - name: USB
+    type: usb-b
+  - name: RS232
+    type: rj-45
+power-ports:
+  - name: Input Power
+    type: iec-60320-c20
+    maximum_draw: 2200
+power-outlets:
+  - name: Group 1 - Outlet 1
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Group 1 - Outlet 2
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Group 2 - Outlet 1
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Group 2 - Outlet 2
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Primary Group - Outlet 1
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Primary Group - Outlet 2
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Primary Group - Outlet 3
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Primary Group - Outlet 4
+    type: iec-60320-c13
+    power_port: Input Power
+  - name: Primary Group - Outlet 5
+    type: iec-60320-c19
+    power_port: Input Power
+  - name: Primary Group - Outlet 6
+    type: iec-60320-c19
+    power_port: Input Power
+module-bays:
+  - name: Communication card slot
+    position: '1'
