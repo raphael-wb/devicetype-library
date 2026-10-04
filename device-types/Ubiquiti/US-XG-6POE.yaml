@@ -12,6 +12,8 @@ comments: |
   Dimensions: 165 x 268.1 x 31.8 mm (6.50 x 10.56 x 1.25")
 u_height: 1
 is_full_depth: false
+front_image: true
+rear_image: true
 interfaces:
   - name: RJ45 1 (PoE)
     type: 10gbase-t
